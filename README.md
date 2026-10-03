@@ -7,6 +7,11 @@ The **Cloud-Based Retail Sales Data Warehouse & Analytics Platform** is an end-t
 The project demonstrates a complete data pipeline from raw retail transaction data to cloud storage, data processing, cloud data warehousing, SQL analytics, and interactive business intelligence dashboards.
 
 ---
+## 🏗️ Project Architecture
+
+The following diagram illustrates the end-to-end data flow from the retail sales dataset to business intelligence dashboards.
+
+![Cloud Retail Sales Architecture](architecture/cloud_architecture_diagram.png)
 
 ## 🏗️ Architecture
 
@@ -277,15 +282,43 @@ Detailed project documentation is available in the `docs/` directory.
 
 ## 📸 Screenshots
 
-Project screenshots will be added to the `screenshots/` directory.
+## 📸 Project Screenshots
 
-They will demonstrate the implementation across:
+### AWS S3 Storage
 
-* AWS S3
-* Snowflake
-* Power BI
+**S3 Bucket**
 
----
+![AWS S3 Bucket](screenshots/aws/aws_s3_bucket.png)
+
+**Raw Data**
+
+![AWS S3 Raw Data](screenshots/aws/aws_s3_raw_data.png)
+
+**Processed Data**
+
+![AWS S3 Processed Data](screenshots/aws/aws_s3_processed_data.png)
+
+### Snowflake Data Warehouse
+
+**Database**
+
+![Snowflake Database](screenshots/snowflake/snowflake_database.png)
+
+**Retail Sales Table**
+
+![Snowflake Retail Sales Table](screenshots/snowflake/snowflake_retail_sales_table.png)
+
+**Data Preview**
+
+![Snowflake Data](screenshots/snowflake/snowflake_data.png)
+
+**SQL Query Results**
+
+![Snowflake SQL Results](screenshots/snowflake/snowflake_sql_result.png)
+
+### Power BI Dashboard
+
+![Power BI Dashboard](screenshots/powerbi/powerbi_dashboard.png)
 
 ## 💡 Skills Demonstrated
 
