@@ -13,45 +13,6 @@ The following diagram illustrates the end-to-end data flow from the retail sales
 
 ![Cloud Retail Sales Architecture](architecture/cloud_architecture_diagram.png)
 
-## 🏗️ Architecture
-
-```text
-                    Retail Sales Dataset
-                            │
-                            ▼
-                    ┌───────────────┐
-                    │    AWS S3     │
-                    │  Raw Storage  │
-                    └───────┬───────┘
-                            │
-                            ▼
-                    ┌───────────────┐
-                    │  ETL Pipeline │
-                    │ Extract       │
-                    │ Transform     │
-                    │ Validate      │
-                    │ Load          │
-                    └───────┬───────┘
-                            │
-                            ▼
-                    ┌───────────────┐
-                    │   Snowflake   │
-                    │ Data Warehouse│
-                    └───────┬───────┘
-                            │
-                            ▼
-                    ┌───────────────┐
-                    │   SQL         │
-                    │   Analytics   │
-                    └───────┬───────┘
-                            │
-                            ▼
-                    ┌───────────────┐
-                    │   Power BI    │
-                    │   Dashboard   │
-                    └───────────────┘
-```
-
 ---
 
 ## 🎯 Project Objectives
@@ -366,4 +327,4 @@ Power BI
 
 **Shrikant Dutonde**
 
-This project was developed as a practical data engineering and cloud analytics project demonstrating an end-to-end retail data warehouse solution.
+This project was developed as a practical data engineering and cloud analytics project, demonstrating an end-to-end retail data warehouse solution using AWS, Snowflake, PySpark, SQL, and Power BI.
